@@ -6,6 +6,7 @@ body {
 header {
   text-align: center;
   margin-top: 50px;
+  font-size: larger;
 }
 
 .box {
