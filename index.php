@@ -1,3 +1,13 @@
+<!-- PHP -->
+<?php 
+        // declare variables
+        $name = "Valdiaz Gahari";
+        $nim = "251110206";
+        $class = "D2025";
+        $favnumber = 19;
+        $dreamGPA = 4.00;
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,21 +28,21 @@
         <h1>My Profile</h1>
     </header>
     <div class="box">
-        <?php 
-        // declare variables
-        $name = "Valdiaz Gahari";
-        $nim = "251110206";
-        $class = "D2025";
-        $favnumber = 19;
-        $dreamGPA = 4.00;
-
-        // display data
-        echo "Name: $name <br>";
-        echo "NIM: $nim <br>";
-        echo "Class: $class <br>";
-        echo "Favorite Number: $favnumber <br>";
-        echo "Dream GPA: $dreamGPA <br>";
-    ?>
+        <h3>
+            <?php echo "Name: $name <br>";?>
+        </h3>
+        <h3>
+            <?php echo "NIM: $nim <br>";?>
+        </h3>
+        <h3>
+            <?php echo "Class: $class <br>";?>
+        </h3>
+        <h3>
+            <?php echo "Favorite Number: $favnumber <br>";?>
+        </h3>
+        <h3>
+            <?php echo "Dream GPA: $dreamGPA <br>";?>
+        </h3>
     </div>
     <footer>
         <p>&copy; 2025 Valdiaz Gahari</p>
