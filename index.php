@@ -14,6 +14,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=7820&format=png&color=000000favicon.ico" type="image/x-icon">
     
     <!-- Style File -->
     <link rel="stylesheet" href="css/style.css">
