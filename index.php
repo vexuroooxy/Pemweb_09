@@ -1,11 +1,27 @@
 <!-- PHP -->
 <?php 
         // declare variables
-        $name = "Valdiaz Gahari";
-        $nim = "251110206";
-        $class = "D2025";
-        $favnumber = 19;
-        $dreamGPA = 4.00;
+        $name = "Valdiaz Gahari"; // string
+        $nim = "251110206"; // integer
+        $code = array("HTML, ", "CSS, ", "JavaScript, ", "C/C++(Arduino), ", "PHP."); // array
+        $dreamGPA = 4.00; // float
+        $prodi = false; //boolean
+
+        // conditional statements
+
+        // GPA
+        if ($dreamGPA >= 3.5){
+            $title = "Insha Allah Cumlaude";
+        } else {
+            $title = "Not Cumlaude, But Hard Working!";
+        }
+
+        // prodi
+        if ($prodi == true){
+            $stugram = "Teknik Informatika";
+        } else {
+            $stugram = "Teknik Elektro";
+        }
     ?>
 
 <!DOCTYPE html>
@@ -31,21 +47,34 @@
         <h1>My Profile</h1>
     </header>
     <div class="box">
-        <h3>
-            <?php echo "Name: $name <br>";?>
-        </h3>
-        <h3>
-            <?php echo "NIM: $nim <br>";?>
-        </h3>
-        <h3>
-            <?php echo "Class: $class <br>";?>
-        </h3>
-        <h3>
-            <?php echo "Favorite Number: $favnumber <br>";?>
-        </h3>
-        <h3>
-            <?php echo "Dream GPA: $dreamGPA <br>";?>
-        </h3>
+        <div class="text">
+            <p>
+                <?php echo "$name <br>";?>
+            </p>   
+        </div>
+        <div class="text">
+            <p>
+                <?php echo "$nim <br>";?>
+            </p>
+        </div>
+        <div class="text">
+            <p>
+                <?php foreach ($code as $list){
+                                        echo "$list";
+                                    }
+                                ?>
+            </p>
+        </div> 
+        <div class="text">
+            <p>
+                <?php echo "IPK $dreamGPA $title <br>";?>
+            </p>
+        </div>
+        <div class="text">
+            <p>
+                <?php echo "$stugram <br>";?>
+            </p>
+        </div>
     </div>
     <footer>
         <p>&copy; 2025 Valdiaz Gahari</p>
