@@ -46,36 +46,41 @@
     <header>
         <h1>My Profile</h1>
     </header>
-    <div class="box">
-        <div class="text">
-            <p>
-                <?php echo "$name <br>";?>
-            </p>   
+    <main class="main">
+        <div class="img">
+            <img src="https://raw.githubusercontent.com/vexuroooxy/Tugas-4/refs/heads/main/assets/image.jpg" alt="photo" width="500">
         </div>
-        <div class="text">
-            <p>
-                <?php echo "$nim <br>";?>
-            </p>
+        <div class="box">
+            <div class="text">
+                <p>
+                    <?php echo "$name <br>";?>
+                </p>   
+            </div>
+            <div class="text">
+                <p>
+                    <?php echo "$nim <br>";?>
+                </p>
+            </div>
+            <div class="text">
+                <p>
+                    <?php foreach ($code as $list){
+                            echo "$list";
+                            }
+                        ?>
+                </p>
+            </div> 
+            <div class="text">
+                <p>
+                    <?php echo "IPK $dreamGPA $title <br>";?>
+                </p>
+            </div>
+            <div class="text">
+                <p>
+                    <?php echo "$stugram <br>";?>
+                </p>
+            </div>
         </div>
-        <div class="text">
-            <p>
-                <?php foreach ($code as $list){
-                                        echo "$list";
-                                    }
-                                ?>
-            </p>
-        </div> 
-        <div class="text">
-            <p>
-                <?php echo "IPK $dreamGPA $title <br>";?>
-            </p>
-        </div>
-        <div class="text">
-            <p>
-                <?php echo "$stugram <br>";?>
-            </p>
-        </div>
-    </div>
+    </main>
     <footer>
         <p>&copy; 2025 Valdiaz Gahari</p>
     </footer>
