@@ -5,7 +5,7 @@
         $nim = "251110206"; // integer
         $code = array("HTML, ", "CSS, ", "JavaScript, ", "C/C++(Arduino), ", "PHP."); // array
         $dreamGPA = 4.00; // float
-        $prodi = false; //boolean
+        $prodi = true; //boolean
 
         // conditional statements
 
@@ -48,7 +48,7 @@
     </header>
     <main class="main">
         <div class="img">
-            <img src="https://raw.githubusercontent.com/vexuroooxy/Tugas-4/refs/heads/main/assets/image.jpg" alt="photo" width="500">
+            <img src="https://raw.githubusercontent.com/vexuroooxy/Tugas-4/refs/heads/main/assets/image.jpg" alt="photo" width="300">
         </div>
         <div class="box">
             <div class="text">
